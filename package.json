@@ -1,0 +1,41 @@
+{
+  "name": "react-nextjs-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "@babel/preset-react": "^7.24.7",
+    "autoprefixer": "latest",
+    "babel-loader": "^9.1.3",
+    "framer-motion": "^11.3.2",
+    "gsap": "^3.12.5",
+    "highlight.js": "^11.10.0",
+    "next": "^14.2.5",
+    "postcss": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^6.24.1",
+    "react-scroll": "^1.9.0",
+    "swiper": "^11.1.5",
+    "tailwindcss": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-scroll": "^1.8.10",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5"
+  }
+}

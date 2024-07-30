@@ -1,0 +1,112 @@
+/*
+
+Style with support for rainbow parens
+
+*/
+
+/* In your styles/tomorrow-night-blue.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+pre.paragh {
+  position: relative;
+  padding-left: 1px;
+  tab-size:4;
+  /* Adjust this based on the width of the line numbers */
+  
+}
+
+pre.paragh code {
+  width:260%;
+  display: block;
+  font-size: 1.2rem;
+  display: block;
+  padding:5px;
+}
+/* #1d1a28 */
+.hljs {
+  background: #1d1a28;
+  color: #ffffff;
+}
+
+
+.hljs-comment,
+.hljs-quote {
+  color: #969896;
+  font-style: italic;
+}
+/* class */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-type,
+.hljs-addition {
+  color: #692df7;
+}
+
+
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #120261;
+}
+.hljs-number{
+  color: #a031a3;
+}
+/* Text */
+.hljs-string,
+.hljs-doctag,
+.hljs-regexp {
+  color: #14f50c;
+}
+
+/* functions */
+.hljs-title,
+.hljs-name,
+.hljs-section,
+.hljs-built_in {
+  color: yellow;
+}
+
+/* this */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-id,
+.hljs-title.class_,
+.hljs-class .hljs-title {
+   color:#f22753;
+ 
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-subst,
+.hljs-meta,
+.hljs-link {
+  color:   #120261;
+}
+
+.hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-formula {
+  background: #eee8d5;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #81a2be;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
