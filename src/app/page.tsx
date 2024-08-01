@@ -5,7 +5,7 @@ import PortfolioSection from "@/components/PortfolioSection";
 import AboutSection from "@/components/AboutSection";
 import SkillSection from "@/components/SkillSection";
 import Footer from "@/components/Footer";
-import SocialSection from "@/components/SocialSection";
+
 import ProjectSection from "@/components/ProjectSection"
 
 import { useRef } from "react";
