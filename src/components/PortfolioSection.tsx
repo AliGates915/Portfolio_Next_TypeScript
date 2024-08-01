@@ -46,7 +46,7 @@ const PortfolioSection = () => {
         <h1><span>&nbsp;</span>FRONT-END</h1>
         <h2>DEVELOPER</h2>
       </div>
-      <video src={'./smokevideo3.mp4'} autoPlay loop muted
+      <video src={'./smokevideo.mp4'} autoPlay loop muted
         className={styles.smokevideo}
       />
     </div>
