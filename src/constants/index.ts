@@ -1,7 +1,4 @@
 
-import SirArslan from './Images Senior/Arslan.jpg';
-import SirTalha from './Images Senior/Talha.jpg';
-import SirUsama from './Images Senior/Usama.jpg';
 import { StaticImageData } from 'next/image';
 
 interface Testimonial {
@@ -24,33 +21,6 @@ interface Project {
   image: StaticImageData;
   source_code_link: string;
 }
-
-const testimonials: Testimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "M. Arslan",
-    designation: "Full Stack Engineer",
-    company: "eFAIDA Technologies",
-    image: `${SirArslan}`,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Talha Hashmi",
-    designation: "Technical Project Manager",
-    company: "eFAIDA Technologies",
-    image: `${SirTalha}`,
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Usama",
-    designation: "Business Analyst",
-    company: "NetBridge Ltd.",
-    image: `${SirUsama}`,
-  },
-];
 
 import waltford from '../assets/project/watford.png';
 import portfolio from '../assets/project/portfolio.png';
@@ -121,4 +91,4 @@ const projects: Project[] = [
   },
 ];
 
-export {testimonials, projects };
+export {projects };
