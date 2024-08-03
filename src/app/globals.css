@@ -133,5 +133,13 @@ Image{
   -o-user-drag: none;
   user-drag: none;
 }
-
-
+.blue-text-gradient{
+  color: #0bd3dd;
+}
+.pink-text-gradient {
+  color: #fa4283; /* fallback for old browsers */
+} 
+.green-text-gradient {
+  color: #09d024; /* fallback for old browsers */
+ 
+}

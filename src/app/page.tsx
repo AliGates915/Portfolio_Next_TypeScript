@@ -4,9 +4,8 @@ import Navbar from "@/components/Navbar";
 import PortfolioSection from "@/components/PortfolioSection";
 import AboutSection from "@/components/AboutSection";
 import SkillSection from "@/components/SkillSection";
-import Footer from "@/components/Footer";
-
-import ProjectSection from "@/components/ProjectSection"
+// import Footer from "@/components/Footer";
+import ProjectSection from '@/components/ProjectSection';
 
 import { useRef } from "react";
 
@@ -20,8 +19,7 @@ export default function Home() {
 
   return (
     <div >
-
-      {/* <CustomCursor/> */}
+     
       <Navbar
         homeRef={homeRef}
         aboutRef={aboutRef}
@@ -37,14 +35,15 @@ export default function Home() {
       <div ref={aboutRef} id="about-section">
         <AboutSection />
       </div>
-      {/* <div ref={projectsRef} id="projects-section">
-        <ProjectSection />
-      </div> */}
-      
-      
+     
       <div ref={skillsRef} id="projects-section">
         <SkillSection />
       </div>
+     <div ref={projectsRef} id="projects-section">
+        <ProjectSection />
+      </div>
+       
+      
       {/*<div ref={contactRef} id="contact-section">
         <Footer />
       </div>
