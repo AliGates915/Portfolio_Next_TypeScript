@@ -4,7 +4,7 @@ import { FaLinkedin, FaDiscord, FaGithub , FaYoutube } from 'react-icons/fa';
 function SocialIcon() {
     return (
         <>
-            <div className='pl-2 gap-4 sm:gap-14 text-white flex'>
+            <div className='pl-2 gap-4 sm:gap-16 text-white flex'>
                 <div className="relative group">
                     <LinkedInIc />
                     <span className="absolute left-1/2 transform -translate-x-1/2 
