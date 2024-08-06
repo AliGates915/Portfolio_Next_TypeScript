@@ -6,6 +6,7 @@ import AboutSection from "@/components/AboutSection";
 import SkillSection from "@/components/SkillSection";
 // import Footer from "@/components/Footer";
 import ProjectSection from '@/components/ProjectSection';
+import Contact from "@/components/Contact";
 
 import { useRef } from "react";
 
@@ -44,10 +45,10 @@ export default function Home() {
       </div>
        
       
-      {/*<div ref={contactRef} id="contact-section">
-        <Footer />
+      <div ref={contactRef} id="contact-section">
+        <Contact />
       </div>
-      <SocialSection /> */}
+      {/* <SocialSection />  */}
       {/* 
       <ProtfolioSection/>
       */}

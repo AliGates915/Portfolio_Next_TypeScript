@@ -15,7 +15,8 @@ const PortfolioSection = () => {
             <p>Hi, I am <span>Ali Gates</span></p>
             </Reveal>
             <Reveal>
-            <p>I build a frontend websites, I will solve all your business problems. I am open to freelance work.</p>
+              <p>I build a frontend websites, I will solve all your business problems. I am   contribute into Open Source.  
+              </p>
             </Reveal>
           </div>
         </div>

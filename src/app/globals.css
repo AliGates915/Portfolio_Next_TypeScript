@@ -126,6 +126,7 @@ a {
   background: gray;
   /* border-radius: 4rem; */ /* Uncomment if you want rounded scrollbars */
 }
+
 Image{
   -webkit-user-drag: none;
   -khtml-user-drag: none;

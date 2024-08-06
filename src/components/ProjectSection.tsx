@@ -113,10 +113,10 @@ const ProjectSection: React.FC = () => {
           </motion.p>
         </div>
 
-        <div className='pt-5 pb-5 pl-10 flex flex-wrap gap-7'>
-          {projects.map((project: Project, index: number) => (
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
-          ))}
+        <div className='relative pt-5 pb-5 pl-10 flex flex-wrap gap-7'>
+        {projects.map((project: Project, index: number) => (
+        <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}    
         </div>
       </div>
     </>

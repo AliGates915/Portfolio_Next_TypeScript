@@ -29,14 +29,14 @@ const projects: Project[] = [
   {
     name: "Waltford LLC.",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "As a Frontend Developer, I’m developing the Watford LLC website using Next.js, Framer Motion, and Tailwind CSS. I used the CoinGecko API to display coin prices in various currencies. I implemented login functionality, compared trading options, and enabled the buying and selling of coins.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "framermotion",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -50,7 +50,7 @@ const projects: Project[] = [
   {
     name: "ZPS Online Services",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ZPS Online Graphics Services used React.js and TypeScript on the front end alongside Tailwind CSS. Users can easily upload and download templates, accessing a variety of graphic design services. On the backend, Node.js ensures secure file handling. Available Admin Panel.",
     tags: [
       {
         name: "react",
@@ -66,12 +66,12 @@ const projects: Project[] = [
       },
     ],
     image: zps,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AliGates915/Zahid-Printing-Service",
   },
   {
     name: "3D Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I developed a dynamic and visually engaging 3D Portfolio website to showcase my skills and projects. Utilizing React.js for its robust performance.  Framer Motion and Three.js were integrated to create captivating animations. Tailwind CSS allowed me to style the site efficiently and responsively.",
     tags: [
       {
         name: "react",
@@ -87,7 +87,7 @@ const projects: Project[] = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AliGates915/3D-Personal-Portfolio",
   },
 ];
 
