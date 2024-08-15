@@ -20,11 +20,13 @@ interface Project {
   tags: Tag[];
   image: StaticImageData;
   source_code_link: string;
+  live_code_link: string;
 }
 
 import waltford from '../assets/project/watford.png';
 import portfolio from '../assets/project/portfolio.png';
 import zps from '../assets/project/zps.png'
+import indep from '../assets/project/indepen.png'
 const projects: Project[] = [
   {
     name: "Waltford LLC.",
@@ -46,6 +48,7 @@ const projects: Project[] = [
     ],
     image: waltford,
     source_code_link: "https://github.com/AliGates915/WatfordLLC_Crypto",
+    live_code_link: "https://watford-llc-crypto.vercel.app/",
   },
   {
     name: "ZPS Online Services",
@@ -67,6 +70,7 @@ const projects: Project[] = [
     ],
     image: zps,
     source_code_link: "https://github.com/AliGates915/Zahid-Printing-Service",
+    live_code_link: "https://zps-online-services.netlify.app",
   },
   {
     name: "3D Portfolio",
@@ -88,6 +92,30 @@ const projects: Project[] = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/AliGates915/3D-Personal-Portfolio",
+    live_code_link: "https://aligates-3d-portfolio.netlify.app",
+  },
+
+  {
+    name: "Independence Day Celebration",
+    description:
+      "I created a dynamic Independence Day celebration page using React and the react-confetti library. The page features an animated flag display and festive confetti, all brought together with custom CSS to convey the holiday spirit.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-cofetti",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: indep,
+    source_code_link: "https://github.com/AliGates915/Independence-Day-Celebration-",
+    live_code_link: "https://14th-aug-day.netlify.app",
   },
 ];
 

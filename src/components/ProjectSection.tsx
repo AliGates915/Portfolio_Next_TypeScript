@@ -21,6 +21,7 @@ interface Project {
   tags: Tag[];
   image: StaticImageData;
   source_code_link: string;
+  live_code_link:string;
 }
 const ProjectCard: React.FC<Project & { index: number }> = ({
   index,
@@ -29,6 +30,7 @@ const ProjectCard: React.FC<Project & { index: number }> = ({
   tags,
   image,
   source_code_link,
+  live_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -50,7 +52,7 @@ const ProjectCard: React.FC<Project & { index: number }> = ({
           <div className='flex-row absolute gap-1 inset-0 flex justify-end m-1'>
             <div 
               className="cursor-pointer bg-gray-600 w-10 h-10 rounded-full flex justify-center items-center ;"
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(live_code_link, "_blank")}
             >
               <Image
                 src={live}
